@@ -1,0 +1,19 @@
+h1{
+    font-family: fantasy;
+    font-style:normal;
+    background-image: url(../img/fundovermelho.jpg);
+    text-align: center;
+}
+
+h2{
+    border-bottom: 2px solid gray;
+}
+
+figure{
+    text-align: center;
+}
+
+img{
+    width: 200px;
+    height: 200px;
+}
