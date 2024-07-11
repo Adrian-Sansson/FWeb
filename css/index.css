@@ -1,0 +1,34 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+}
+
+.menu-opcoes ul{
+    font-size: 20px;
+}
+
+.menu-opcoes a{
+    color: darkred;
+}
+
+.container{
+    position: relative;
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+figure{
+    text-align:left;
+}
+
+img{
+    width: 200px;
+    height: 200px;
+}
+
+.menu-opcoes{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}

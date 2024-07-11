@@ -12,23 +12,39 @@ body{
 #esquerdo h1{
     color: yellow;
     text-align: center;
-    width: 49%;
+    width: 89%;
+}
+
+#esquerdo p{
+    font-family: 'Sedgwick Ave', cursive;
+    font-size: 20px;
+    float: left;
+    width: 97%;
+    height: 100px;
 }
 
 #direito{
+    height: 500px;
     float: right;
     width: 49%;
-
 }
 
-table{
-    text-align: end;
-}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: separate;
+    width: 100%;
+  }
+  
+  td, th {
+    border-bottom: 1px solid #dddddd;
+    text-align: justify;
+    padding: 5px;
+  }
+  
+  tr:nth-child() {
+    background-color: #dddddd;
+  }
 
 footer p{
     text-align: center;
-}
-
-#fotoprincipal{
-    height: auto;
 }
