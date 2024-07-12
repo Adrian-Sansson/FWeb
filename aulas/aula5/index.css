@@ -1,5 +1,5 @@
 .dpainel{
-    background-color: crimson;
+    background-color:green;
     width: 1000px;
     height: 1000px;
 }
@@ -7,7 +7,7 @@
 #img{
     width: 200px;
     height: 200px;
-    position: absolute;
+    position:relative;
     right: 5px;
     bottom: 5px;
 }

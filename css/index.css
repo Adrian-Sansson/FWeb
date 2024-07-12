@@ -23,12 +23,54 @@ figure{
 }
 
 img{
-    width: 200px;
-    height: 200px;
+    width: 10%;
+    height: 10%;
 }
 
 .menu-opcoes{
     position: absolute;
     top: 0px;
     right: 0px;
+}
+
+.menu-opcoes ul li{
+    display: inline;
+    margin-left: 50px;
+}
+
+.painel{
+    font-size: 5px;
+    text-align: center;
+    width: 30%;
+    margin: 10px 0;
+    padding: 10px;
+}
+
+.aula1{
+    float: left;
+    background-color: rgb(13, 195, 13);
+}
+
+.aula2{
+    float: right;
+    background-color: rgb(13, 195, 13);
+}
+
+.painel li{
+    display: inline-block;
+    width: 10px;
+    vertical-align: top;
+    margin: 2px;
+    padding-bottom: 10px;
+}
+
+.painel h2{
+    font-family: fantasy;
+    font-size: 20px;
+}
+
+.painel a{
+    color: rgb(0, 0, 0);
+    font-size: 5px;
+    text-align: center;
 }
