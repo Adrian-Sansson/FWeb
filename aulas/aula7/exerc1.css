@@ -1,0 +1,29 @@
+.container{
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+}
+
+.container a[href*=github]{
+    color: rgba(255, 0, 238, 0.799);
+}
+
+.container a:visited[href*=github]{
+    color: rgba(255, 0, 238, 0.799);
+}
+
+.container a[href*=instagram]{
+    color: darkorange;
+}
+
+.container a:visited[href*=instagram]{
+    color: darkorange;
+}
+
+.container a[href*=facebook]{
+    color: blue;
+}
+.container a:visited[href*=facebook]{
+    color: blue;
+}
