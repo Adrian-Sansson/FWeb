@@ -38,6 +38,18 @@ figure{
     margin-left: 50px;
 }
 
+.menu-opcoes a{
+    color: green;
+}
+
+.menu-opcoes a:hover{
+    color: red
+}
+
+menu-opcoes a:active{
+    color: yellow;
+}
+
 .painel{
     font-size: 30px;
     width: 48%;

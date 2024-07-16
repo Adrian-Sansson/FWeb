@@ -1,0 +1,26 @@
+.container a[href*=github]{
+    color: rgba(255, 0, 238, 0.799);
+}
+
+.container a[href*=instagram]{
+    color: darkorange;
+}
+
+.container a[href*=facebook]{
+    color: blue;
+}
+
+/*mouse pra cima*/
+a:hover{
+    background-color: rgba(51, 48, 48, 0.566);
+}
+
+/*link visitado*/
+a:visited{
+    background-color: green;
+}
+
+/*link clicado*/
+a:active{
+    background-color: red;
+}
