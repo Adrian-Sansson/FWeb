@@ -53,34 +53,63 @@ menu-opcoes a:active{
 .painel{
     font-size: 30px;
     width: 48%;
-    margin: 10px 0;
+    margin: 30px 0;
     padding: 10px;
+    border-radius: 10px;
+    box-shadow: inset 20px 20px 100px black;
 }
 
 .aula1{
     float: left;
     background-color: rgb(13, 195, 13);
+    background: linear-gradient(-5deg, rgb(0, 57, 0), rgb(0, 247, 0));
 }
 
 .aula2{
     float: right;
     background-color: rgb(13, 195, 13);
+    background: linear-gradient(-5deg, rgb(0, 52, 0), rgb(0, 247, 0));
+}
+
+.imgex{
+    width: 50px;
+    height: auto;
+    text-align: center;
 }
 
 .painel li{
     display: inline-block;
-    width: 20px;
+    width: 15%;
     margin: 45px;
-    height: 2px;
+    height: 20px;
     padding-bottom: 50px;
     font-family: fantasy;
+    border-radius: 5px;
+    text-align: center;
 }
+
+.painel li:hover{
+    box-shadow: 15px 15px 10px black;
+    transition: 0.7s;
+    background-color: rgb(95, 210, 7);
+    transform: scale(2.7) rotate (-5deg);
+}
+
 
 .painel h2{
     font-family: fantasy;
     font-size: 25px;
     margin: auto;
     text-align: center;
+    text-shadow: 5px 5px 5px rgba(90, 8, 17, 0.8);
+}
+
+.painel h3{
+    font-family: fantasy;
+    font-size: 25px;
+    margin: auto;
+    text-align: center;
+    text-shadow: 5px 5px 5px white;
 }
 
 .painel a{
@@ -91,7 +120,7 @@ menu-opcoes a:active{
 
 .social li a[href*=github]{
     width: 50px;
-    background-image: url(../img/github.png);
+    background-image: url(../img/github2.png);
     background-size: contain;
     background-repeat: no-repeat;
     display: block;
@@ -100,7 +129,7 @@ menu-opcoes a:active{
 
 .social li a[href*=instagram]{
     width: 50px;
-    background-image: url(../img/instagram.png);
+    background-image: url(../img/instagram2.png);
     background-size: contain;
     background-repeat: no-repeat;
     display: block;
@@ -118,7 +147,7 @@ menu-opcoes a:active{
 
 footer{
     clear: both;
-    background-image: url(../img/fundoverde.png); top: 420px; right: 49;
+    background-image: url(../img/fundoverde.png); top: 380px; right: 49;
 }
 
 .social li{

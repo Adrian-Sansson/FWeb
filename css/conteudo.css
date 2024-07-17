@@ -93,6 +93,11 @@ img{
     height: auto;
 }
 
+.busca{
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
 .busca, .menu-conteudo{
     background-color:rgb(0, 188, 0);
     font-weight: bold; /*Negrito*/

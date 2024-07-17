@@ -1,0 +1,21 @@
+body{
+    background-color: white;
+}
+
+@media screen and (min-width: 480px) and (max-width: 720px){
+    body{background-color: red;}
+    h1:before{content: "480";}
+    h1:after{content: "720";}
+}
+
+@media screen and (min-width: 720px) and (max-width: 1024px){
+    body{background-color: blue;}
+    h1:before{content: "720";}
+    h1:after{content: "1024";}
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1500px){
+    body{background-color: green;}
+    h1:before{content: "1024";}
+    h1:after{content: "1500";}
+}
