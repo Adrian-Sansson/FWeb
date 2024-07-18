@@ -1,6 +1,12 @@
-body{
+html, body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: black;
+    height: 100%;
+    width: 100%;
+}
+
+header{
+    height: 20%;
 }
 
 .menu-opcoes ul{
@@ -9,6 +15,10 @@ body{
 
 .menu-opcoes a{
     color: green
+}
+
+main{
+    height: 60%;
 }
 
 .container{
@@ -56,7 +66,7 @@ menu-opcoes a:active{
     margin: 30px 0;
     padding: 10px;
     border-radius: 10px;
-    box-shadow: inset 20px 20px 100px black;
+    box-shadow: inset 10px 10px 50px black;
 }
 
 .aula1{
@@ -66,9 +76,51 @@ menu-opcoes a:active{
 }
 
 .aula2{
-    float: right;
+    float: left;
     background-color: rgb(13, 195, 13);
     background: linear-gradient(-5deg, rgb(0, 52, 0), rgb(0, 247, 0));
+}
+
+.aula3{
+    float: left;
+    background-color: rgb(13, 195, 13);
+    background: linear-gradient(-5deg, rgb(0, 57, 0), rgb(0, 247, 0));
+}
+
+.aula4{
+    float: left;
+    background-color: rgb(13, 195, 13);
+    background: linear-gradient(-5deg, rgb(0, 57, 0), rgb(0, 247, 0));
+}
+
+.aula5{
+    float: left;
+    background-color: rgb(13, 195, 13);
+    background: linear-gradient(-5deg, rgb(0, 57, 0), rgb(0, 247, 0));
+}
+
+.aula7{
+    float: left;
+    background-color: rgb(13, 195, 13);
+    background: linear-gradient(-5deg, rgb(0, 57, 0), rgb(0, 247, 0));
+}
+
+.aula8{
+    float: left;
+    background-color: rgb(13, 195, 13);
+    background: linear-gradient(-5deg, rgb(0, 57, 0), rgb(0, 247, 0));
+}
+
+.aula9{
+    float: left;
+    background-color: rgb(13, 195, 13);
+    background: linear-gradient(-5deg, rgb(0, 57, 0), rgb(0, 247, 0));
+}
+
+.aula10{
+    float: left;
+    background-color: rgb(13, 195, 13);
+    background: linear-gradient(-5deg, rgb(0, 57, 0), rgb(0, 247, 0));
 }
 
 .imgex{
@@ -92,7 +144,7 @@ menu-opcoes a:active{
     box-shadow: 15px 15px 10px black;
     transition: 0.7s;
     background-color: rgb(95, 210, 7);
-    transform: scale(2.7) rotate (-5deg);
+    transform: scale(1.7) rotate (-5deg);
 }
 
 
@@ -119,8 +171,8 @@ menu-opcoes a:active{
 }
 
 .social li a[href*=github]{
-    width: 50px;
-    background-image: url(../img/github2.png);
+    width: 20px;
+    background-image: url(../img/github.png); top: 50%; right: 100;
     background-size: contain;
     background-repeat: no-repeat;
     display: block;
@@ -128,35 +180,36 @@ menu-opcoes a:active{
 }
 
 .social li a[href*=instagram]{
-    width: 50px;
-    background-image: url(../img/instagram2.png);
+    width: 20px;
+    background-image: url(../img/instagram2.png); top: 50%; right: 100;
     background-size: contain;
     background-repeat: no-repeat;
     display: block;
     text-indent: -9999px;
 }
 
-.social li a[href*=facebook]{
-    width: 50px;
-    background-image: url(../img/facebook.png);
+.social li a[href*=linkedin]{
+    width: 20px;
+    background-image: url(../img/linkedin.png); top: 50%; right: 100;
     background-size: contain;
     background-repeat: no-repeat;
     display: block;
     text-indent: -9999px;
-}
-
-footer{
-    clear: both;
-    background-image: url(../img/fundoverde.png); top: 380px; right: 49;
-}
-
-.social li{
-    float: left;
-    margin-right: 20px;
 }
 
 .social{
     position: absolute;
     right: 10px;
     top: 10px;
+}
+
+footer{
+    clear: both;
+    background-image: url(../img/fundoverde.png); top: 25%;
+    height: 15%;
+}
+
+.social li{
+    float: left;
+    margin-right: 20px;
 }
