@@ -22,6 +22,7 @@ main{
 }
 
 .container{
+    text-align: center;
     position: relative;
     width: 90%;
     margin-right: auto;
@@ -58,6 +59,10 @@ figure{
 
 menu-opcoes a:active{
     color: yellow;
+}
+
+#destaques image{
+    text-align: center;
 }
 
 .painel{

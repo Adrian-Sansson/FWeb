@@ -51,6 +51,9 @@ body{
 body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: black;
+    background-image: url(../img/Zoro2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .menu-opcoes ul{
