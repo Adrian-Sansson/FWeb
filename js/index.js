@@ -8,12 +8,12 @@ function trocaBanner(){
 }
 setInterval(trocaBanner, 3000)
 
-const AudioP = document.querySelector('#audioPlayer')
-const InputRange = document.querySelector('#input-range')
-const ButtonPlay = document.querySelector('#play')
+const AudioP = document.querySelector('#audioPlayer');
+const InputRange = document.querySelector('#input-range');
+const ButtonPlay = document.querySelector('#Play');
 
-InputRange.addEventListener("input", () => { AudioP.volume = InputRange.value;})
+InputRange.addEventListener("input", () => { AudioP.volume = InputRange.value;});
 
 ButtonPlay.addEventListener("click", () => {
-    AudioP.Play()
-})
+    AudioP.play();
+});
