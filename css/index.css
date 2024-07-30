@@ -146,6 +146,18 @@ menu-opcoes a:active{
     background: linear-gradient(-5deg, rgb(0, 57, 0), rgb(0, 247, 0));
 }
 
+.aula15{
+    float: left;
+    background-color: rgb(13, 195, 13);
+    background: linear-gradient(-5deg, rgb(0, 57, 0), rgb(0, 247, 0));
+}
+
+.aula16{
+    float: left;
+    background-color: rgb(13, 195, 13);
+    background: linear-gradient(-5deg, rgb(0, 57, 0), rgb(0, 247, 0));
+}
+
 .imgex{
     width: 50px;
     height: auto;

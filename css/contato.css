@@ -56,3 +56,17 @@ video{
     width: 30%;
     height: auto;
 }
+
+
+.item{ background-image: url ("../../img/One piece.jpeg");
+
+    height: 520px;
+    
+    background-attachment : fixed;
+    
+    background-position : center;
+    
+    background-repeat: no-repeat;
+    
+    background-size: cover;
+};
