@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    background-color: rgb(136, 2, 2);
+    text-align: center;
+}
+
+main{
+    padding: 15px;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+#imgpokedex{
+    width: 100%;
+    max-width: 425px;
+}
+
+.container{
+    position: relative;
+}
+
+#imgpokemon{
+    position: absolute;
+    bottom: 60%;
+    left: 30%;
+}
+
+.pokemon-data1{
+    position: absolute;
+    bottom: 51%;
+    left: 28%;
+}
+
+.form-busca{
+    position: absolute;
+    bottom: 45%;
+    left: 30%;
+    width: 70%;
+}
+
+#inputName{
+    
+}

@@ -17,6 +17,13 @@ header{
     color: green
 }
 
+.container-destaque{
+    text-align: center;
+    width: 100px;
+    height: 400px;
+    margin-top: 10%;
+}
+
 main{
     height: 60%;
 }
