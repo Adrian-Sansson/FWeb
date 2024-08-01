@@ -26,23 +26,60 @@ main{
 
 #imgpokemon{
     position: absolute;
-    bottom: 60%;
-    left: 30%;
+    bottom: 53%;
+    left: 35%;
 }
 
 .pokemon-data1{
     position: absolute;
-    bottom: 51%;
-    left: 28%;
+    bottom: 40%;
+    left: 23%;
 }
 
 .form-busca{
     position: absolute;
-    bottom: 45%;
-    left: 30%;
-    width: 70%;
+    bottom: 34.98%;
+    left: 18.90%;
+    width: 63%;
 }
 
+
 #inputName{
-    
+    text-align: center;
+    font-family: fantasy;
+    width: 100%;
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: -3px 2px 0 rgb(127, 127, 127);
+    border-bottom-left-radius: 70px; border-bottom-style:groove;
+}
+
+.pokemon-data2{
+    position: absolute;
+    text-align: center;
+    bottom: 15%;
+    left: 10%;
+}
+
+.buttons{
+    position: absolute;
+    top: 90%;
+    right: 10%;
+    width: 70%;
+    display: flex;
+}
+
+.button{
+    width: 40%;
+    gap: 10px;
+    font-family: fantasy;
+    padding-left: 29px;
+    bottom: 36.50%;
+    left: 18.90%;
+    padding-right: 10%;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: -3px 2px 0 rgb(127, 127, 127);
+    border-bottom: 70px;
 }

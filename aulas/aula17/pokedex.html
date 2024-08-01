@@ -16,8 +16,9 @@
             <img id="imgpokemon" src="R" alt="Imagem do Charizard">
         </figure>
         <h1 class="pokemon-data1">
-            <spam>06</spam>
-            <spam>Charizard</spam>
+            <span id="numeroPokemon">06</span>
+            <span>-</span>
+            <span id="nomePokemon">Charizard</span>
         </h1>
         <form class="form-busca">
             <input type="text" id="inputName">
@@ -33,6 +34,11 @@
         </div>
       </div>
     </main>
+    <footer>
+      <input type="range" id="input-range" min="0" max="1" step="0.01">
+        <audio src="./audio/fundomsc.mp3" id="audioPlayer"></audio>
+        <button id="Play">Play</button>
+    </footer>
     <script src="./pokedex.js"></script>
   </body>
 </html>

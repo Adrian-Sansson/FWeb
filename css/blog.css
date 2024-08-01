@@ -4,6 +4,11 @@ li{
     margin-bottom: auto;
 }
 
+li a{
+    color: black;
+    background-color: white;
+}
+
 .item{ background-image: url ("../../img/anime1.png");
 
     height: 520px;
