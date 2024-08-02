@@ -5,7 +5,6 @@
 }
 
 html, body{
-    background-color: rgb(136, 2, 2);
     text-align: center;
 }
 
@@ -31,9 +30,10 @@ main{
 }
 
 .pokemon-data1{
+    
     position: absolute;
     bottom: 40%;
-    left: 23%;
+    left: 25%;
 }
 
 .form-busca{
@@ -57,9 +57,9 @@ main{
 
 .pokemon-data2{
     position: absolute;
-    text-align: center;
-    bottom: 15%;
-    left: 10%;
+    text-align: left;
+    bottom: 11%;
+    left: 9%;
 }
 
 .buttons{
@@ -82,4 +82,16 @@ main{
     border-radius: 10px;
     box-shadow: -3px 2px 0 rgb(127, 127, 127);
     border-bottom: 70px;
+}
+
+#nomePokemon{
+    text-transform: capitalize;
+}
+
+#tipo1Pokemon{
+    text-transform: capitalize;
+}
+
+#tipo2Pokemon{
+    text-transform: capitalize;
 }

@@ -24,18 +24,19 @@
             <input type="text" id="inputName">
         </form>
         <h1 class="pokemon-data2">
-            <div>Tipo</div>
-            <div>Peso</div>
-            <div>Altura</div>
+          <div>Tipo: <span id="tipo1Pokemon"></span>-<span id="tipo2Pokemon"></span></div>
+          <div>Peso: <span id="pesoPokemon"></span></div>
+          <div>Altura: <span id="alturaPokeon"></span></div>
+          <div>Habilidades: <span id="habilidade1"></span><span id="habilidade2"></span></div>
         </h1>
         <div class="buttons">
-            <button class="button">Anterior</button>
-            <button class="button">Próximo</button>
+            <button id="but1" class="button">Anterior</button>
+            <button id="but2" class="button">Próximo</button>
         </div>
       </div>
     </main>
     <footer>
-      <input type="range" id="input-range" min="0" max="1" step="0.01">
+      <input type="range" id="input-range" min="50" max="100" step="0.01">
         <audio src="./audio/fundomsc.mp3" id="audioPlayer"></audio>
         <button id="Play">Play</button>
     </footer>
