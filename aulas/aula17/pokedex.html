@@ -4,6 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Pokedex</title>
+    <link rel="stylesheet" href="./prefixfree.min.js" />
     <link rel="stylesheet" href="./pokedex.css" />
   </head>
   <body>
@@ -13,7 +14,7 @@
             <img id="imgpokedex" src="./img/pokedex.png" alt="Imagem da Pokedex">
         </figure>
         <figure>
-            <img id="imgpokemon" src="R" alt="Imagem do Charizard">
+            <img id="imgpokemon" src="./img/pokebola.png" alt="Imagem do Charizard">
         </figure>
         <h1 class="pokemon-data1">
             <span id="numeroPokemon">06</span>
@@ -21,13 +22,14 @@
             <span id="nomePokemon">Charizard</span>
         </h1>
         <form class="form-busca">
-            <input type="text" id="inputName">
+            <input type="text" id="inputName" value=""
+            placeholder="Digite o nome ou o número do Pokemon">
         </form>
         <h1 class="pokemon-data2">
-          <div>Tipo: <span id="tipo1Pokemon"></span>-<span id="tipo2Pokemon"></span></div>
+          <div>Tipos: <span id="tipo1Pokemon"></span> / <span id="tipo2Pokemon"></span></div>
           <div>Peso: <span id="pesoPokemon"></span></div>
-          <div>Altura: <span id="alturaPokeon"></span></div>
-          <div>Habilidades: <span id="habilidade1"></span><span id="habilidade2"></span></div>
+          <div>Altura: <span id="alturaPokemon"></span></div>
+          <div>Habilidades: <span id="habilidade1"></span> / <span id="habilidade2"></span></div>
         </h1>
         <div class="buttons">
             <button id="but1" class="button">Anterior</button>
@@ -37,9 +39,12 @@
     </main>
     <footer>
       <input type="range" id="input-range" min="50" max="100" step="0.01">
-        <audio src="./audio/fundomsc.mp3" id="audioPlayer"></audio>
+        <audio src="./audio/somtauz.mp3" id="audioPlayer"></audio>
         <button id="Play">Play</button>
+        <audio autoplay src="" id="audioP"></audio>
     </footer>
+    <script src="./prefixfree.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="./pokedex.js"></script>
   </body>
 </html>

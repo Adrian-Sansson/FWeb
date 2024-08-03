@@ -5,6 +5,8 @@
 }
 
 html, body{
+    background-image: url(./img/pokeball.png);
+    background-size: cover;
     text-align: center;
 }
 
@@ -16,7 +18,7 @@ main{
 
 #imgpokedex{
     width: 100%;
-    max-width: 425px;
+    max-width: 700px;
 }
 
 .container{
@@ -57,9 +59,10 @@ main{
 
 .pokemon-data2{
     position: absolute;
+    font-size: large;
     text-align: left;
-    bottom: 11%;
-    left: 9%;
+    bottom: 15%;
+    left: 7%;
 }
 
 .buttons{
@@ -93,5 +96,13 @@ main{
 }
 
 #tipo2Pokemon{
+    text-transform: capitalize;
+}
+
+#habilidade1{
+    text-transform: capitalize;
+}
+
+#habilidade2{
     text-transform: capitalize;
 }
