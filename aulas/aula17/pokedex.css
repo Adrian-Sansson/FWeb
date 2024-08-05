@@ -1,108 +1,118 @@
-*{
+/* Defini 0% na margin e no padding em todos os elementos */
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-html, body{
-    background-image: url(./img/pokeball.png);
-    background-size: cover;
-    text-align: center;
+/* Defini o fundo e alinhamento do texto para html e body */
+html, body {
+    background-image: url(./img/pokeball.png); /* Defini uma imagem pokebola como imagem de fundo*/
+    background-size: cover; /* Defini que a imagem cobrisse toda a área do fundo */
+    text-align: center; /* Centralizei o texto */
 }
 
-main{
-    padding: 15px;
-    display: inline-block;
-    margin-top: 10px;
+/* Defini a estilização da main */
+main {
+    padding: 15px; /* Defini um espaçamento interno */
+    display: inline-block; /* Defini que main se ajustasse ao conteúdo */
+    margin-top: 10px; /* Defini uma margem superior */
 }
 
-#imgpokedex{
-    width: 100%;
-    max-width: 700px;
+/* Defini a estilização da imagem da Pokedex */
+#imgpokedex {
+    width: 100%; /* Defini a largura como 100% */
+    max-width: 700px; /* Defini a largura máxima como 700px */
 }
 
-.container{
-    position: relative;
+/* Defini a estilização para o container */
+.container {
+    position: relative; /* Defini a posição como (relative) para que elementos dentro container sejam relativos */
 }
 
-#imgpokemon{
-    position: absolute;
-    bottom: 53%;
-    left: 35%;
+/* Defini a estilização para a imagem dos Pokémons, posicionada como (absolut) */
+#imgpokemon {
+    position: absolute; /* Defini o elemento como (absolut) dentro do container, para ele "sobre-por" o que está "atrás" dele */
+    bottom: 53%; /* Defini  a posição de 53% a partir da parte inferior do container*/
+    left: 35%; /* Defini  a posição de 35% a partir da esquerda do container */
 }
 
-.pokemon-data1{
-    
-    position: absolute;
-    bottom: 40%;
-    left: 25%;
+/* Defini a estilização para o título, onde aparece os nomes dos pokemons */
+.pokemon-data1 {
+    position: absolute; /* Defini a posição como (absolut) dentro do container, para ele "sobre-por" o que está "atrás" dele */
+    bottom: 40%; /* Defini a posição do (bottom) como 40% a partir da parte inferior do container*/
+    left: 25%; /* Defini a posição como 25% a partir da parte esquerda do container */
 }
 
-.form-busca{
-    position: absolute;
-    bottom: 34.98%;
-    left: 18.90%;
-    width: 63%;
+/* Defini a estilização da "caixa" de busca dos Pokémons dentro do (form-busca)*/
+.form-busca {
+    position: absolute; /* Defini a posição como (absolut) dentro do container*/
+    bottom: 34.98%; /* Defini a posição do (bottom) com 34.98% a partir da parte inferior do container*/
+    left: 18.90%; /* Defini a posição de 18.90% a partir da esquerda do container*/
+    width: 63%; /* Defini a largura com 63% do container*/
 }
 
-
-#inputName{
-    text-align: center;
-    font-family: fantasy;
-    width: 100%;
-    padding: 5px;
-    border: 2px solid black;
-    border-radius: 10px;
-    box-shadow: -3px 2px 0 rgb(127, 127, 127);
-    border-bottom-left-radius: 70px; border-bottom-style:groove;
+/* Defini a estilização da "caixa" de busca dos Pokémons, dentro do (inputName)*/
+#inputName {
+    text-align: center; /* Defini o alinhamento o texto ao centro */
+    font-family: fantasy; /* Defini a fonte como (fantasy) */
+    width: 100%; /* Defini a largura como 100%*/
+    padding: 5px; /* Adicionei um espaçamento interno de 5px */
+    border: 2px solid black; /* Defini uma borda preta de 2px de largura */
+    border-radius: 10px; /* Adicionei um raio de borda de 10px */
+    box-shadow: -3px 2px 0 rgb(127, 127, 127); /* Adicionei uma sombra para criar um efeito de profundidade */
+    border-bottom-left-radius: 70px; /* Adicionei um raio de borda específico para o canto inferior esquerdo */
+    border-bottom-style: groove; /* Defini o estilo da borda inferior como (groove) */
 }
 
-.pokemon-data2{
-    position: absolute;
-    font-size: large;
-    text-align: left;
-    bottom: 15%;
-    left: 7%;
+/* Defini a estilização para as informações sobre os pokemons */
+.pokemon-data2 {
+    position: absolute; /* Defini a posição como (absolut) dentro do container*/
+    font-size: large; /* Defini o tamanho da fonte como grande */
+    text-align: left; /* Alinhei o texto à esquerda */
+    bottom: 15%; /* Defini a posição a 15% a partir da parte inferior do container */
+    left: 7%; /* Defini a posição a 7% a partir da esquerda do container*/
 }
 
-.buttons{
-    position: absolute;
-    top: 90%;
-    right: 10%;
-    width: 70%;
-    display: flex;
+/* Defini a posição dos botões (anterior/próximo) */
+.buttons {
+    position: absolute; /* Defini a posição como (absolut) dentro do container*/
+    top: 90%; /* Defini a posição a 90% a partir do topo do container*/
+    right: 10%; /* Defini a posição a 10% a partir da direita do container */
+    width: 70%; /* Defini a largura como 70% do container */
+    display: flex; /* Apliquei um efeito para aparecer após clicar nos botões */
 }
 
-.button{
-    width: 40%;
-    gap: 10px;
-    font-family: fantasy;
-    padding-left: 29px;
-    bottom: 36.50%;
-    left: 18.90%;
-    padding-right: 10%;
-    border: 2px solid black;
-    border-radius: 10px;
-    box-shadow: -3px 2px 0 rgb(127, 127, 127);
-    border-bottom: 70px;
+/* Defini a estilização para os botões (anterior/próximo) */
+.button {
+    width: 40%; /* Defini a largura dos botões como 40% do container*/
+    gap: 10px; /* Defini um espaço de 10px entre os botões */
+    font-family: fantasy; /* Defini a fonte de (anterior/próximo) como fantasy */
+    padding-left: 29px; /* Adicionei um preenchimento interno à esquerda de 29px */
+    padding-right: 10%; /* Adicionei um preenchimento interno à direita de 10% */
+    border: 2px solid black; /* Defini uma borda preta de 2px de largura */
+    border-radius: 10px; /* Adicionei um raio de borda de 10px */
+    box-shadow: -3px 2px 0 rgb(127, 127, 127); /* Adicionei uma sombra para criar um efeito de profundidade */
+    border-bottom: 70px; /* Defini a largura da borda inferior com 70px */
 }
 
+/* Defini que todas as palavras dentro desses id's, tenham a primeira letra definida como maiúscula*/
 #nomePokemon{
-    text-transform: capitalize;
+  text-transform: capitalize;
 }
 
 #tipo1Pokemon{
-    text-transform: capitalize;
+  text-transform: capitalize;
 }
 
 #tipo2Pokemon{
-    text-transform: capitalize;
+  text-transform: capitalize;
 }
 
 #habilidade1{
-    text-transform: capitalize;
+  text-transform: capitalize;
 }
 
 #habilidade2{
-    text-transform: capitalize;
+  text-transform: capitalize;
 }

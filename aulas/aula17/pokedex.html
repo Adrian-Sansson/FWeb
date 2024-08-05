@@ -4,33 +4,39 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Pokedex</title>
-    <link rel="stylesheet" href="./prefixfree.min.js" />
+    <!-- Anexei o CSS da Pokedex -->
     <link rel="stylesheet" href="./pokedex.css" />
   </head>
   <body>
     <main>
       <div class="container">
+        <!-- Imagem da Pokedex -->
         <figure>
             <img id="imgpokedex" src="./img/pokedex.png" alt="Imagem da Pokedex">
         </figure>
+        <!-- Figura com a imagem de uma pokebola, para aparecer durante a transição de um pokemon para o outro -->
         <figure>
             <img id="imgpokemon" src="./img/pokebola.png" alt="Imagem do Charizard">
         </figure>
+        <!-- Exibe o número e nome dos Pokémons -->
         <h1 class="pokemon-data1">
             <span id="numeroPokemon">06</span>
             <span>-</span>
             <span id="nomePokemon">Charizard</span>
         </h1>
+        <!-- Input-text para buscar Pokémon pelo nome ou número -->
         <form class="form-busca">
             <input type="text" id="inputName" value=""
             placeholder="Digite o nome ou o número do Pokemon">
         </form>
+        <!-- Tipos, peso, altura e habilidades de cada pokemon -->
         <h1 class="pokemon-data2">
           <div>Tipos: <span id="tipo1Pokemon"></span> / <span id="tipo2Pokemon"></span></div>
           <div>Peso: <span id="pesoPokemon"></span></div>
           <div>Altura: <span id="alturaPokemon"></span></div>
           <div>Habilidades: <span id="habilidade1"></span> / <span id="habilidade2"></span></div>
         </h1>
+        <!-- Botões para pular ou voltar um Pokémon -->
         <div class="buttons">
             <button id="but1" class="button">Anterior</button>
             <button id="but2" class="button">Próximo</button>
@@ -38,13 +44,15 @@
       </div>
     </main>
     <footer>
+      <!-- Input type range para o usuário selecionar o volume do áudio -->
       <input type="range" id="input-range" min="50" max="100" step="0.01">
-        <audio src="./audio/somtauz.mp3" id="audioPlayer"></audio>
-        <button id="Play">Play</button>
-        <audio autoplay src="" id="audioP"></audio>
+      <audio src="./audio/somtauz.mp3" id="audioPlayer"></audio>
+      <!-- Botão para dar play na música de fundo -->
+      <button id="Play">Play</button>
+      <!-- Autoplay para tocar automáticamente o som do pokemon que for selecionado -->
+      <audio autoplay src="" id="audioP"></audio>
     </footer>
-    <script src="./prefixfree.min.js"></script>
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <!-- Anexei o arquivo JavaScript da Pokedex -->
     <script src="./pokedex.js"></script>
   </body>
 </html>
