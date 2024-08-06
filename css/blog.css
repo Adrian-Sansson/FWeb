@@ -1,12 +1,34 @@
-li{
-    text-align: left;
+.pedido li a[href*=index]{
+    width: 192px;
+    background-image: url(../img/thescream.png); top: 70%; right: 100;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: block;
+    text-indent: -9999px;
+    text-align: right;
     font-size: xx-large;
-    margin-bottom: auto;
 }
 
-li a{
-    color: black;
-    background-color: white;
+.pedido li a[href*=calculadora]{
+    width: 192px;
+    background-image: url(../img/calculadora.png); top: 70%; right: 100;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: block;
+    text-indent: -9999px;
+    text-align: right;
+    font-size: xx-large;
+}
+
+.pedido li a[href*=pokedex]{
+    width: 148px;
+    background-image: url(../img/pokebola.png); top: 70%; right: 100;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: block;
+    text-indent: -9999px;
+    text-align: right;
+    font-size: xx-large;
 }
 
 .item{ background-image: url ("../../img/anime1.png");

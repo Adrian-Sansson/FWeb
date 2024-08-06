@@ -43,6 +43,7 @@ figure{
 }
 
 .menu-opcoes{
+    margin-top: 50px;
     position: absolute;
     top: 0px;
     right: 0px;
@@ -54,7 +55,11 @@ figure{
 }
 
 .menu-opcoes a{
-    color: green;
+   background-color: rgb(0, 89, 0);
+    border: 2px solid rgb(0, 188, 0); /* Defini uma borda preta de 2px de largura */
+    border-radius: 10px; /* Adicionei um raio de borda de 10px */
+    box-shadow: -3px 2px 0 rgb(127, 127, 127);
+    color: rgb(27, 255, 27);
 }
 
 .menu-opcoes a:hover{
