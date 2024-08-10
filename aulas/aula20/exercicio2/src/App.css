@@ -5,10 +5,53 @@
 
 .container{
   text-align: center;
-  min-height: 100vh;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
+  font-size: 30px;
+  width: 100vw;
+}
+
+.containerTwo{
+  text-align: justify;
+  height: 55vh;
+  width: 29vw;
+  margin: 0px 100px 0px;
+  border-radius: 30px;
+  background: linear-gradient(60deg, rgb(0, 255, 234), rgb(0, 0, 255));
+  transform: scale(7.7) rotate (-15deg);
+}
+
+.containerTre{
+  font-size: 20px;
+  height: 20vh;
+  width: 18vw;
+  margin: 0px 100px 0px;
+  border-radius: 15px;
+  background: linear-gradient(20deg, rgb(0, 255, 234), rgb(0, 0, 255));
+  box-shadow: inset 5px -5px 0px rgba(0, 0, 255, 0.426);
+  transform: scale(7.0) rotate (-39deg);
+}
+
+#botao1{
+  text-align: center;
+  height: 20px;
+  width: 300px;
+  border-radius: 15px;
+}
+
+#botao2{
+  text-align: center;
+  height: 20px;
+  width: 300px;
+  border-radius: 15px;
+}
+
+.components4{
+  text-align: center;
+  display: block;
+  border-radius: 15px;
 }

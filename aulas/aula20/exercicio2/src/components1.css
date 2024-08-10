@@ -1,4 +1,7 @@
-function login{
-    color: gray;
-    right: 10px;
+.components1{
+    color: white;
+    text-align: center;
+    height: 180px;
+    margin-top: 20px;
+    text-shadow: 5px 5px 0px gray;
 }
